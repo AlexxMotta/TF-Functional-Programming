@@ -61,9 +61,6 @@ exibirApenasRoupas (Roupa nome cor tamanho preco cat) = do
     putStrLn ("Preco: " ++ show preco)
     putStrLn ("Cat: " ++ show cat)
 
-exibirApenasRoupas2 :: Loja -> IO()
-exibirApenasRoupas2 loja
-
 exibirRoupas :: [Loja] -> Int -> IO()
 exibirRoupas loja n
     |n < (length loja) = do
